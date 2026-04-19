@@ -10,8 +10,7 @@
 
 <br/>
 
-[![Build Status](https://img.shields.io/badge/build-passing-10b981?style=for-the-badge&logo=vite&logoColor=white)](/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Build Status](https://img.shields.io/badge/build-passing-10b981?style=for-the-badge&logo=vite&logoColor=white)](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-)[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -19,7 +18,7 @@
 
 <br/>
 
-[**🚀 Live Demo**](#) · [**📖 Documentation**](#dsl-language-reference) · [**🐛 Report Bug**](#) · [**✨ Request Feature**](#)
+[**🚀 Live Demo**](https://mediscript-dsl-compiler.vercel.app) · [**📖 Documentation**](#-dsl-language-reference) · [**🐛 Report Bug**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=bug&template=bug_report.md) · [**✨ Request Feature**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=enhancement&template=feature_request.md)
 
 </div>
 
