@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6c47ff;
+  --color-secondary: #4f8ef7;
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --color-code-bg: #1e1e2e;
+  --color-code-text: #cdd6f4;
+
+  --font-ui: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* ─── Light Theme (default) ─── */
+:root {
+  --bg: #f8f9fc;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --badge-purple: #ede9fe;
+  --badge-text: #6c47ff;
+  --scrollbar: #d1d5db;
+  --input-bg: #ffffff;
+  --hover-bg: #f3f4f6;
+}
+
+/* ─── Dark Theme ─── */
+html.dark {
+  --bg: #0f1117;
+  --card: #1a1d27;
+  --border: #2d3146;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --badge-purple: #2d1f5e;
+  --badge-text: #a78bfa;
+  --scrollbar: #2d3146;
+  --input-bg: #1e2130;
+  --hover-bg: #252840;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: var(--font-ui);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* ─── Utility Classes from CSS vars ─── */
+.bg-background { background-color: var(--bg); }
+.bg-card { background-color: var(--card); }
+.border-border { border-color: var(--border); }
+.text-textPrimary { color: var(--text-primary); }
+.text-textSecondary { color: var(--text-secondary); }
+.text-textMuted { color: var(--text-muted); }
+.bg-badgePurple { background-color: var(--badge-purple); }
+.text-badgeText { color: var(--badge-text); }
+
+/* ─── Custom Scrollbar ─── */
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--scrollbar); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Input dark support */
+.dark input, .dark select {
+  background-color: var(--input-bg);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+/* Transition all theme-sensitive elements */
+nav, footer, main, .card-el { transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
