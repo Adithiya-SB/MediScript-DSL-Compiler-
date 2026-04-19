@@ -18,7 +18,7 @@
 
 <br/>
 
-[**🚀 Live Demo**](https://mediscript-dsl-compiler.vercel.app) · [**📖 Documentation**](#-dsl-language-reference) · [**🐛 Report Bug**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=bug&template=bug_report.md) · [**✨ Request Feature**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=enhancement&template=feature_request.md)
+[**🚀 Deploy Your Own**](https://vercel.com/new/clone?repository-url=https://github.com/Adithiya-SB/MediScript-DSL-Compiler-) · [**📖 Documentation**](#-dsl-language-reference) · [**🐛 Report Bug**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=bug&template=bug_report.md) · [**✨ Request Feature**](https://github.com/Adithiya-SB/MediScript-DSL-Compiler-/issues/new?labels=enhancement&template=feature_request.md)
 
 </div>
 
